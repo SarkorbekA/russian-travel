@@ -1,0 +1,30 @@
+.page {
+    font-family: "Inter", "Arial", sans-serif; 
+    text-rendering: optimizeLegibility;
+    max-width: 1280px;
+    min-width: 320px;
+    text-align: center;
+    color: #ffffff;
+    background: #2A2C2F;
+    margin: 0 auto;
+
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .page {
+      width: 1024px;
+    }
+    }
+    @media screen and (min-width: 768px) and (max-width: 1023px) {
+    .page {
+        width: 768px;
+    }
+    }
+    
+    @media screen and (min-width: 320px) and (max-width: 767px) {
+      .page {
+        width: 320px;
+      }
+    }
+
+
