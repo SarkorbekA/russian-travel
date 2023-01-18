@@ -13,3 +13,11 @@
     z-index: 1;
     color: #FFFFFF;
 }
+
+@media screen and (max-width: 565px) {
+    .cover__title {
+        padding: 0px 20px;
+        font-size: 32px;
+        line-height: 35px;
+    }
+}

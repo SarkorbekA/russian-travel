@@ -1,3 +1,6 @@
 .place__card {
     text-align: initial;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
 }

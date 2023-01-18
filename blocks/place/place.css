@@ -2,9 +2,26 @@
   max-width: 984px;
   width: 100%;
   display: grid;
-  grid-template-columns: 460px 1fr;
+  grid-template-columns: 6fr 7fr;
   gap: 48px 40px;
   padding-bottom: 80px;
-  
+}
 
+@media screen and (max-width:1024px) {
+  .place {
+    gap: 48px 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place {
+    gap: 48px 24px;
+  }
+}
+
+@media screen and (max-width:540px) {
+  .place {
+    gap: 48px 0px;
+    grid-template-columns: 1fr;
+  }
 }
